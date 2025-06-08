@@ -1,10 +1,10 @@
 import sql from 'mssql'
 
 const config = {
-    user: 'dev',
-    password: 'asswaa025448',
-    server: 'localhost',
-    database: 'todolistdb',
+    user: '######', //set your user
+    password: '######', //set your password
+    server: 'localhost', // set your server
+    database: '######', //set your database
     options: {
       encrypt: true,
       trustServerCertificate: true,
